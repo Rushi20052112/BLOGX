@@ -12,7 +12,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-    origin: ["http://localhost:3000","https://blogx-rust.vercel.app/"],
+    origin: ["http://localhost:3000","https://blogx-phi.vercel.app"],
     credentials: true
 }));
 
